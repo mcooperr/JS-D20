@@ -4,18 +4,23 @@ window.addEventListener("load", function() {
 	console.log("Good job opening the window")
 
 });
-
-document.querySelector("video").addEventListener("click", function() {
+// play button //
+document.querySelector("#play").addEventListener("click", function() {
 	video.play();
 	console.log("Play Video");
 });
+// pause button //
+document.querySelector("#pause").addEventListener("click",function() {
+	video.pause();
+	console.log("Video Paused")
+})
+// slow down button //
+document.querySelector("#slower").addEventListener("click",function() {
+	video
+})
 
-// document.querySelector(#)
+// volume slider //
+let volume = document.querySelector("#slider")
 
 
 
-/* <div id="check">
-    <label>
-		<input type="checkbox" name="subscribe" id="subscribe" onclick = challenge1(this)> Check to toggle the email field. </input>
-	</label>
-</div> */
